@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: #946dcebe;
+    box-sizing: border-box;
+}
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6931bd;
+    padding: 20px;
+    font-size: 18px;
+}
+
+div.logo{  
+    flex: 1;
+    text-align: center;
+    padding-left: 80px;
+}
+img.logo1{
+    max-width: 100px;
+    height: 100px;  
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 90px;
+}
+nav ul li { 
+    display: inline-block;
+}
+nav a {  
+    color: snow;
+    text-decoration: none;
+}
+nav p.frase{
+    color: snow;
+    text-decoration: none;
+}
+h2.frase{
+    font-size: 15px;
+    color: snow;
+    text-decoration: none;
+    padding-left: 60px;
+    margin: 0;
+}
+header a:hover{
+color:black
+}
+main.principal{
+    height: 550px;
+    width: 100%;
+    background-color: #533f70;
+    background-image: url(imagenes/pimera.jpg); 
+    background-size: cover;
+    background-position: center;
+    box-shadow:0 0 35px black;
+}
+div.redes{
+    background-color: black;
+    margin: 10px;
+    border-radius: 20px;
+    border:2px solid #6931bd;
+    text-align: center;
+    color: snow;
+    font-size: 20px;
+}
+p.follow{
+    font-size: 40px;
+    text-align: center;
+    color: snow;
+}
+div i{
+    letter-spacing: 25px;
+}
+.galeria{
+    display: flex;
+    overflow-y: auto;  
+    padding: 16px;
+    justify-content: center ;
+    align-items: center;
+    margin: 65px;
+}
+.card{
+    margin-right: 10px;
+    position: relative;
+}
+.card img{
+        width: 200px;   
+        object-fit: cover;
+        height: 300px;
+        box-shadow: 0 0 20px black;
+}
+.cuerpo{
+    position: absolute;
+    bottom: 0; 
+    margin: 20px;
+    color: snow;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.507);
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+div.fondostore{
+    background-color: rgba(0, 0, 0, 0.815);
+    width: 190px;
+    height: 65px;
+    border-radius: 10px;
+    box-shadow: 0 0 5 black;
+}
+h2.tienda{
+    color: snow;
+    text-decoration: none;
+    font-size: 60px;
+    text-align: center;
+}
+.boton{
+    color: snow;
+    float: right;
+    text-decoration: none;
+    background-color: #6931bd;
+    margin-bottom: 65px;
+    border-radius: 5px;
+}
+.foot{
+    color: snow;
+    font-size: 33px;
+    letter-spacing: 24px;
+}
+footer{
+    background-color:#6931bdd3;
+    color: snow;
+    text-align: center;
+    font-size: 19px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subir{
+    height: 45px;
+    width: 45px;
+    color: snow;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+/* EQUIPO */ /*Aca todavia no pude cerrar mi idea q es ponerle
+            una tabla con los ultimos partidos jugados y centrar las imagenes abajo del texto*/
+.fondoeq{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #533f70;
+    background-image: url(imagenes/Banner.jpg);  
+    background-size: cover;
+    z-index: 2;
+background-position: bottom;
+}
+h2.titulocs{
+    font-size: 40px;
+    color: snow;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titular{
+        color: snow;
+        font-size: 15px;
+        width: 70%;
+        border: 5px solid #533f70;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.61);
+        text-align: center;
+        margin-left: 100px;
+        display: flex;
+    }
+.galerai2{
+    display: flex;
+    gap: 20px;
+}
+.caja{
+    border-radius: 50%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    max-width: 90px;
+    flex-flow: column;
+    margin-left: 55px;
+}
+.caja img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+div.descrip{
+    color: snow;
+    text-align: left;
+    background-color: #6931bddc;
+    width: 5.5cm;
+    margin-left: 3cm;   
+    border-radius: 6px;
+    border: solid rgba(0, 0, 0, 0.685)
+}
+
+
+/* MEDIA */ /*en esta parte quiero cambiar la galeria pero arme esa asi quedaba maqueteado*/
+
+.galeria3{
+    display: flex;
+    overflow-y: auto;  
+    padding: 16px;
+    justify-content: center ;
+    align-items: center;
+    margin: 65px;
+}
+.card2{
+    margin-right: 10px;
+    position: relative;
+}
+.card2 img{
+        width: 200px;   
+        object-fit:cover;
+        height: 300px;
+        box-shadow: 0 0 20px black;
+}
+.cuerpo2{
+    position: absolute;
+    bottom: 0; 
+    margin: 20px;
+    color: snow;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.507);
+}
+.cont2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+div.fondomedia{
+    background-color: rgba(0, 0, 0, 0.925);
+    width: 210px;
+    height: 65px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #6931bd;
+}
+h2.media{
+    color: snow;
+    text-decoration: none;
+    font-size: 60px;
+    text-align: center;
+}
+.video{
+    display: flex;
+    overflow-y: auto;  
+    padding: 16px;
+    justify-content: center ;
+    align-items: center;
+    margin: 65px;
+}
+iframe{
+    width: 800px;
+        object-fit: cover;
+        height: 400px;
+        box-shadow: 0 0 20px black;
+}
+/*Nosotros*/
+h2.nos{
+    font-size: 45px;
+    text-align: center;
+}
+div.texto{
+width: 400px;
+margin: 0 auto;
+background-color: #6931bd;
+padding: 20px;
+box-shadow:0 5px 36px black;
+}
+p.texto1{
+    color: snow;
+    font-size: 20px;
+    text-align: center;
+}
+.galeria4{
+    display: flex;
+    overflow-y: auto;  
+    padding: 16px;
+    justify-content: center ;
+    align-items: center;
+    margin: 65px;
+}
+.card3{
+    margin-right: 10px;
+    position: relative;
+}
+.card3 img{
+        width: 800px;   
+        object-fit:cover;
+        height: 800px;
+        box-shadow: 0 0 20px black;
+}
+.cuerpo3{
+    position: absolute;
+    bottom: 0; 
+    margin: 20px;
+    color: snow;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.507);
+}
+/* Contacto*/ /*Cambiar esto luego*/
+
+.contact1 {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.contact1 h2 {
+text-align: center;
+}
+
+.contact1 label {
+    display: block;
+    margin-bottom: 5px;
+}
+.contact1 input[type="text"],
+.contact1 input[type="email"],
+.contact1 textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact1 button{
+    width: 100%;
+    padding: 10px;
+    background-color: #6931bd;
+    color: snow;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*LINKS ICONOS*/
+.redes a{
+    text-decoration: none;
+    color: snow;
+}
+.redes :hover{
+    color: #541da7
+}
+.foot a{
+    text-decoration: none;
+    color: snow;
+}
+.foot :hover{
+    color: #541da7;
+}
