@@ -1,0 +1,272 @@
+body{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.container-fluid{
+  height: 55px;
+}
+.logo1{
+  height: 5rem;
+}
+header a:hover{
+  color:black
+  }
+/*index*/
+.botonstore{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+
+}
+.card-footer{
+margin-top: auto;
+}
+.jumbotron{
+  background-image: url(../imagenes/pimera.jpg);
+  height: 100%;
+  width: 200px;
+
+}
+.card1{
+  background-color:black;
+  border-radius: 10px;
+}
+.card-body1{
+  color: snow;
+  padding: 10px;
+}
+.card-title4{
+  text-align: center;
+  .card-text4{
+    color: snow;
+  }
+  
+}
+@media (max-width: 768px) {
+  .texto1 {
+    font-size: 10px; 
+  }
+}
+@media (max-width: 768px) {
+  .card6{ 
+    flex-basis: calc(50% - 20px);} 
+}
+
+.col{
+  background-color: gray;
+  height: 100px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 18px;
+  margin: 25px;
+
+  .unete{
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(23deg, #6f04d3, #030101);
+    font-size: 20px; 
+    font-weight: bold; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  }
+.form-control{
+  width: 200px;
+}
+.btn-custom-color{
+  background-color: #541da7;
+  color: snow;
+  border-color: snow;
+}
+.btn-custom-color1{
+  background-color: black;
+color: snow;
+}
+/*Equipo*/
+.Team1{
+    background-image: url(../imagenes/Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+}
+.card7 {
+    background-color: rgba(255, 255, 255, 0.85); 
+    border-radius: 10px 10px;
+    overflow: hidden;
+    height: 290px;
+    width: calc(33.33% - 20px);
+    max-width: 300px;
+    margin: 10px;
+    box-shadow: 0 5px 15px black;
+    text-align: center;
+
+  
+    .card-img-top {
+      object-fit: cover;
+      max-height: 400px;
+    }
+    .card-text{
+      height: 20px;
+      color: black;
+      font-style: italic;
+    }
+  
+  }
+  $font3: sans-serif;
+  $color1: snow;
+
+  .titulocont{
+    color: $color1;
+    font-family: $font3;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+
+  /* Media */
+  .row1{
+  display: grid;   
+  height: 150px;
+  width: 250px;
+  }
+
+  /*Nosotros*/
+p.texto1{
+    color: snow;
+    font-size: 20px;
+    text-align: center;
+    text-shadow:20px black;
+    align-items: center;
+}
+.card6 {
+    width: calc(25% - 20px);
+    margin: 10px; 
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    background-color: black;
+    color: snow;
+  }
+  
+  .card6 .card-img-top {
+    max-height: 400px; 
+    object-fit: cover; 
+  }
+
+  /* Media */
+  .carousel{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+.video3{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1   ); }
+    
+    .containergal{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 15px;
+      box-shadow: 0 2px 5px black;
+    }
+    .card{
+      box-shadow: 0 2px 5px black;
+    }
+
+    /* contacto */
+
+    h1 {
+      background-color: rgba(0, 0, 0, 0.863);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  .containercontacto{
+    display: grid;
+    flex-direction:column;
+    place-items: center;
+    height: 100vh;
+  }
+  .col-md-6 {
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f5f5f5;
+  }
+  
+  .btn-primary {
+      background-color: black;
+      border-color: #6f04d3;
+  }
+
+.navbar{
+  background-color: #030101;
+}
+@media only screen and (min-width: 0) and (max-width:576px){
+#collapsibleNavbar{
+  background-color: #030101;
+  text-align: center;
+  z-index: 1000;
+}
+}
+
+  /* footer */
+  .foot{
+    color: snow;
+    font-size: 33px;
+    letter-spacing: 24px;
+}
+footer{
+    background-color:rgba(0, 0, 0, 0.877);
+    color: snow;
+    text-align: center;
+    font-size: 19px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid transparent;
+}
+.subir{
+    height: 45px;
+    width: 45px;
+    color: snow;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 45px;
+    text-align: center;
+}
+.redes a{
+  text-decoration: none;
+  color: snow;
+}
+.redes :hover{
+  color: #541da7
+}
+.foot a{
+  text-decoration: none;
+  color: snow;
+}
+.foot :hover{
+  color: #541da7d5;
+}
+
+.containergal {
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+@media (max-width: 576px) {
+  .containergal {
+      max-width: 100%; 
+      padding: 0; 
+  }
+}
+
+

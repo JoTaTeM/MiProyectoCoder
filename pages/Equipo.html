@@ -4,71 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>9z Team Unofficial website</title>
+    <!-- Inicia Bs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- fin bs -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" type="" href="../imagenes/favicon.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,200&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        
-        <h2 class="frase">Professional esports organization.</h2>
-        <div class="logo"> 
-            <img class="logo1"  src="../imagenes/logo.png" alt="">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand mr-auto" href="#"><img class="logo1" src="../imagenes/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Media.html">Media</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          <div class="container-fluid ms-auto d-flex justify-content-end">
+            <span class="navbar-text me-3 text-light">Professional Esport Organization</span>
+          </div>
         </div>
-    <nav class="barra">
-    <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="#">Equipo</a></li>
-        <li><a href="./Media.html">Media</a></li>
-        <li><a href="./Nosotros.html">Nosotros</a></li>
-        <li><a href="./Contacto.html">Contacto</a></li>
-    </ul> 
-    </nav>
-    </header>
-    <main class="fondoeq">
-        <h2 class="titulocs">Counter Strike Team</h2>
-        <div class="titular">
-            <p class="desc">
-                Nuestro equipo de Counter-Strike fue creado en 2018 con el objetivo de poder llevar a lo mas alto el nombre de la region siendo formada por jugadores locales.
-                Intentamos siempre fomentar el no cambiar de roster para poder seguir creciendo como equipo a pesar de las adversidades dandonos asi los frutos de ser uno de los mejores de la region 
-            </p> 
+      </nav> 
+    <main class="Team1">
+        <div class="titulocont">
+        <h1 class="titulos">Counter Strike Team</h1>
         </div>
-        <div class="galeria2">
-            <div class="caja">
-            <img src="../imagenes/dgt.png" alt="">
-            </div>
-            <div class="descrip">
-                <p>Franco "dgt" Garcia 🇺🇾</p>
-            </div>
-            <div class="caja">
-                <img src="../imagenes/maxujas.png" alt="">
-            </div>
-            <div class="descrip">
-                <p>Maximiliano "Max" Gonzalez 🇺🇾</p>
-            </div>
-            <div class="caja">
-                <img src="../imagenes/dav1d.png" alt="">
-            </div>
-            <div class="descrip">
-                <p>David "Dav1d" Tapia 🇨🇱</p>
-            </div>
-            <div class="caja">
-                <img src="../imagenes/try.png" alt="">
+        <div class="d-flex flex-nowrap justify-content-around">
+            <div class="card7" >
+                <img src="../imagenes/try.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Santiago "Try" Rigal 🇦🇷</p>
                 </div>
-                <div class="descrip">
-                    <p>
-                        Santino "Try" Rigal 🇦🇷</p>
                 </div>
-            </div>
-            <div class="caja">
-                <img src="../imagenes/buda.png" alt="">
+                <div class="card7">
+                <img src="../imagenes/dgt.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Franco "dgt" Garcia 🇺🇾</p>
                 </div>
-                <div class="descrip">
-                <p>Nicolas "Buda" Kramer 🇦🇷</p>
-            </div>
+                </div>
+                <div class="card7">
+                <img src="../imagenes/maxujas.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Maximiliano "Max" Gonzalez 🇺🇾</p>
+                </div>
+                </div>
+                <div class="card7">
+                <img src="../imagenes/dav1d.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">David "Dav1deus" Tapia 🇨🇱</p>
+                </div>
+                </div>
+                <div class="card7">
+                    <img src="../imagenes/buda.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Nicolas "Buda" Kramer 🇦🇷</p>
+        </div>
+    </main>
+    <main class="Team1">
+        <div class="titulocont">
+        <h2 class="titulos">Valorant Team</h2>
+        </div>
+        <div class="d-flex flex-nowrap justify-content-around">
+            <div class="card7" >
+                <img src="../imagenes/mizu.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Gabriel "Mizu" Gonzalez 🇦🇷</p>
+                </div>
+                </div>
+                <div class="card7">
+                <img src="../imagenes/Deigara.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Gonzalo "deigara" Funes 🇦🇷</p>
+                </div>
+                </div>
+                <div class="card7">
+                <img src="../imagenes/david.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">David "david" Olivares 🇨🇱</p>
+                </div>
+                </div>
+                <div class="card7">
+                <img src="../imagenes/tuli.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Gulliano "Tuli" Pozo 🇨🇱</p>
+                </div>
+                </div>
+                <div class="card7">
+                    <img src="../imagenes/rubkk.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Facundo "Rubikkoide" Chavez 🇦🇷</p>
         </div>
     </main>
     <footer>
@@ -89,5 +133,7 @@
     <a href="#"class="subir">
         <i class="fa-regular fa-circle-up"></i>
     </a>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
