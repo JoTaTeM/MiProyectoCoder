@@ -29,12 +29,6 @@ header a:hover {
   margin-top: auto;
 }
 
-.jumbotron {
-  background-image: url(../imagenes/pimera.jpg);
-  height: 100%;
-  width: 200px;
-}
-
 .card1 {
   background-color: black;
   border-radius: 10px;
@@ -52,6 +46,10 @@ header a:hover {
   color: snow;
 }
 
+#cardtw1 {
+  box-shadow: 0 5px 15px black;
+}
+
 @media (max-width: 768px) {
   .texto1 {
     font-size: 10px;
@@ -64,7 +62,7 @@ header a:hover {
 }
 .col {
   background-color: gray;
-  height: 100px;
+  height: auto;
   padding: 25px;
   display: flex;
   justify-content: space-between;
@@ -74,12 +72,22 @@ header a:hover {
   margin: 25px;
 }
 .col .unete {
-  background-clip: text;
+  -webkit-background-clip: text;
+          background-clip: text;
   color: transparent;
-  background-image: linear-gradient(23deg, #6f04d3, #030101);
+  background-image: linear-gradient(23deg, #6f04d3, rgba(182, 0, 199, 0.7137254902));
   font-size: 20px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card1 {
+  box-shadow: 0 5px 15px black;
+}
+
+#colU {
+  background-color: #131212;
+  border-radius: 15px;
 }
 
 .form-control {
@@ -97,6 +105,11 @@ header a:hover {
   color: snow;
 }
 
+#col1 {
+  background-color: snow;
+  box-shadow: 0 5px 15px black;
+}
+
 /*Equipo*/
 .Team1 {
   background-image: url(../imagenes/Banner.jpg);
@@ -110,21 +123,36 @@ header a:hover {
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 10px 10px;
   overflow: hidden;
-  height: 290px;
-  width: calc(33.33% - 20px);
+  height: auto;
+  width: auto;
   max-width: 300px;
   margin: 10px;
   box-shadow: 0 5px 15px black;
   text-align: center;
+  padding: 10px;
 }
 .card7 .card-img-top {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-height: 400px;
+  width: 200px;
+  height: auto;
 }
 .card7 .card-text {
   height: 20px;
   color: black;
   font-style: italic;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+#carousel {
+  margin: 3px;
+}
+
+#contcaro {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .titulocont {
@@ -144,7 +172,13 @@ header a:hover {
 }
 
 /*Nosotros*/
-p.texto1 {
+.col {
+  background-color: #541da7;
+  width: auto;
+  height: auto;
+}
+
+.texto1 {
   color: snow;
   font-size: 20px;
   text-align: center;
@@ -161,9 +195,15 @@ p.texto1 {
   color: snow;
 }
 
+.card-body {
+  border: 2px solid #ccc;
+  height: auto;
+}
+
 .card6 .card-img-top {
   max-height: 400px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* Media */
@@ -215,12 +255,12 @@ h1 {
 }
 
 .navbar {
-  background-color: #030101;
+  background-color: #131212 !important;
 }
 
 @media only screen and (min-width: 0) and (max-width: 576px) {
   #collapsibleNavbar {
-    background-color: #030101;
+    background-color: #131212;
     text-align: center;
     z-index: 1000;
   }
@@ -283,6 +323,4 @@ footer {
     max-width: 100%;
     padding: 0;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
