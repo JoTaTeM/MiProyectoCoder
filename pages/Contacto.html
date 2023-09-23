@@ -45,28 +45,21 @@
           </div>
         </div>
       </nav> 
-    <form>
-        <div class="containercontacto">
-            <h1>Contacto</h1>
-            <div class="row">
-                <div class="col-md-3">
-                    <form>
-                        <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
-                        </div>
-                        <div class="mb-3">
-                            <label for="mensaje" class="form-label">Mensaje</label>
-                            <textarea class="form-control" id="mensaje" rows="4" placeholder="Cuentanos que estas pensando!"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </form>
-                </div>
-            </div>
+      <body>
+        <div class="contact1">
+          <h2>Cuentanos mas de ti</h2>
+          <form>
+            <label for="name">Nombre:</label>
+            <input type="text"name="name" required>
+      
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" required>
+      
+            <label for="message">Mensaje:</label>
+            <textarea name="message" rows="4" required></textarea>
+      
+            <button type="submit">Enviar</button>
+          </form>
         </div>
       <footer>
         <p>Todos los derechos son reservados por copyright</p>
